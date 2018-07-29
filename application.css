@@ -1,0 +1,175 @@
+
+/*     reset css     */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1.4em;
+color: #555;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+a{
+  font-family: 'Lato';
+  text-decoration: none;
+}
+
+
+
+
+/*          */
+
+body{
+  background-color: #f8f9fa;
+}
+
+.wrapper{
+  background-color: #fff;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+
+
+/*     header     */
+
+header{
+  width: 900px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  header{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.header-wrapper{
+  height: 50px;
+  background-color: #0A4958;
+}
+
+.nav-li{
+  padding: 0 10px;
+  display: inline-block;
+  line-height: 50px;
+}
+
+.nav-li a{
+  color: #F6F7F8;
+  transition-duration: 200ms;
+}
+
+.nav-li a:hover{
+  color: #F1DD89;
+}
+
+/*     main-content     */
+
+.content-wrapper{
+  width: 900px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .content-wrapper{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+section{
+  margin: 40px 0;
+}
+
+h1{
+  font-size: 1.6em;
+  font-family: 'Lato';
+  margin-bottom: 20px;
+  color: #0A4958;
+}
+
+.border-title{
+  border-bottom: solid #F1DD89 5px;
+}
+
+@media screen and (min-width: 684px) {
+  .about-content{
+    display: flex;
+  }
+}
+#about img{
+  width: 200px;
+  height: 200px;
+  display: inline-flex;
+}
+@media screen and (max-width: 684px) {
+  #about img{
+    width: 70%;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 684px) {
+  #about p{
+    padding-left: 20px;
+    display: inline-flex;
+  }
+}
+
+
+
+
+
+
+
+/*     fotter     */
+
+footer{
+  width: 900px;
+  margin: 0 auto;
+  font-size: small;
+}
+@media screen and (max-width: 1024px) {
+  footer{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
